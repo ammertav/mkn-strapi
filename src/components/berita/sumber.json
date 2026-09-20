@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_berita_sumbers",
+  "info": {
+    "displayName": "Sumber"
+  },
+  "options": {},
+  "attributes": {
+    "nama": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

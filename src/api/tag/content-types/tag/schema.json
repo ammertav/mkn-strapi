@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tags",
+  "info": {
+    "singularName": "tag",
+    "pluralName": "tags",
+    "displayName": "Tag"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama": {
+      "type": "string"
+    },
+    "beritas": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::berita.berita",
+      "mappedBy": "tags"
+    },
+    "pengumuman": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::pengumuman.pengumuman",
+      "mappedBy": "kategori"
+    }
+  }
+}

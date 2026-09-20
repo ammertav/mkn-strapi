@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_berita_galeri_items",
+  "info": {
+    "displayName": "Galeri Item",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "gambar": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "keterangan": {
+      "type": "text",
+      "minLength": 1,
+      "required": false
+    }
+  },
+  "config": {}
+}
