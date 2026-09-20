@@ -148,7 +148,7 @@ sudo chown -R $USER:$USER /var/www/strapi
 cd /var/www/strapi
 
 # Clone repo Anda
-git clone <URL_REPO_GITHUB_ANDA> .
+git clone https://github.com/ammertav/mkn-strapi.git .
 ```
 
 ### 2. Install dependensi:
